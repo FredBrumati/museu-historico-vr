@@ -1,0 +1,33 @@
+﻿Technical Specifications - Art Gallery Vol.13
+Author: AK Studio Art
+
+=== Summary ===
+This package provides a collection of 3D models, textures, and prefabs optimized for Unity.
+
+=== Compatibility ===
+- Compatible with Unity 2021.3 LTS and above.
+
+=== Content ===
+- Number of Unique Meshes: 31.
+- Number of Unique Materials: 32.
+- Number of polygons: 2 to 21.817.
+- Texture sizes used:
+  - 2048x2048 (31)
+  - 1024x1024 (17)
+  - 512x512 (3)
+- Types of texture maps: BaseMap, MaskMap, NormalMap.
+
+=== Statistics ===
+The package includes:
+  - 13 FBX models.
+  - 24 Prefabs.
+  - 32 Materials.
+  - 51 Textures.
+  - 1 Demo Scene(s) with preconfigured Lightmap.
+
+=== Notes ===
+- Optimized 3D Models for performance.
+- VR-ready assets.
+- Baked GI included.
+- Post Processing Setup provided.
+
