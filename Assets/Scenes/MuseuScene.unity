@@ -668,6 +668,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1947744609}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &123815649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+  m_PrefabInstance: {fileID: 8108911872057248518}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &134617211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4274,6 +4279,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 444844170012864360, guid: 310c8de51d9c9be4ba5456af00903c3a, type: 3}
   m_PrefabInstance: {fileID: 1000332670}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1007587159 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+  m_PrefabInstance: {fileID: 8108911873009031689}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1035721366
 GameObject:
   m_ObjectHideFlags: 0
@@ -5142,6 +5152,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7134899816975370544, guid: 3c03c02f07174d6478fa210186936d5e, type: 3}
   m_PrefabInstance: {fileID: 1357484069}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1368202634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+  m_PrefabInstance: {fileID: 8108911874013365698}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1385109304
 GameObject:
   m_ObjectHideFlags: 0
@@ -5382,6 +5397,16 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1012569803648119964, guid: 598c75d82df321b4fb7d0d1a53e155be, type: 3}
   m_PrefabInstance: {fileID: 1430511950}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1431231887 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+  m_PrefabInstance: {fileID: 8108911873741149435}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1448538532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+  m_PrefabInstance: {fileID: 8108911874168152037}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1451369216
 GameObject:
@@ -5786,6 +5811,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7134899816975370544, guid: 3c03c02f07174d6478fa210186936d5e, type: 3}
   m_PrefabInstance: {fileID: 1491537383}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1497562152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+  m_PrefabInstance: {fileID: 8108911873096210824}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1537579586
 GameObject:
@@ -6299,6 +6329,11 @@ Transform:
   - {fileID: 262054292}
   m_Father: {fileID: 1385109305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1740377959 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+  m_PrefabInstance: {fileID: 8108911872569781271}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1789117721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6527,6 +6562,11 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &1806050537 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+  m_PrefabInstance: {fileID: 8108911873984694455}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1818789640
 GameObject:
   m_ObjectHideFlags: 0
@@ -9200,13 +9240,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8108911872057248523}
   m_SourcePrefab: {fileID: 100100000, guid: 695fcbf58b94f984196075bece40b020, type: 3}
 --- !u!4 &8108911872057248519 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2972562783387813231, guid: 695fcbf58b94f984196075bece40b020, type: 3}
   m_PrefabInstance: {fileID: 8108911872057248518}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8108911872057248523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123815649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoInformacao: "Representa\xE7\xE3o da primeira missa realizada em 1500, marcando
+    o in\xEDcio da presen\xE7a portuguesa no Brasil e o come\xE7o da coloniza\xE7\xE3o."
 --- !u!1001 &8108911872221689749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9375,7 +9432,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textoInformacao: "A QUE N\xC2O SEI OQ N\xC2O SEI OQ LA"
+  textoInformacao: "Primeiro imperador do Brasil, liderou o processo de independ\xEAncia
+    e marcou o in\xEDcio do per\xEDodo imperial."
 --- !u!1001 &8108911872569781271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9443,13 +9501,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8108911872569781276}
   m_SourcePrefab: {fileID: 100100000, guid: 695fcbf58b94f984196075bece40b020, type: 3}
 --- !u!4 &8108911872569781272 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2972562783387813231, guid: 695fcbf58b94f984196075bece40b020, type: 3}
   m_PrefabInstance: {fileID: 8108911872569781271}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8108911872569781276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740377959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoInformacao: "Os engenhos foram a base da economia colonial, utilizando m\xE3o
+    de obra escravizada para a produ\xE7\xE3o de a\xE7\xFAcar destinado \xE0 exporta\xE7\xE3o."
 --- !u!1001 &8108911873009031689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9517,13 +9592,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8108911873009031694}
   m_SourcePrefab: {fileID: 100100000, guid: 695fcbf58b94f984196075bece40b020, type: 3}
 --- !u!4 &8108911873009031690 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2972562783387813231, guid: 695fcbf58b94f984196075bece40b020, type: 3}
   m_PrefabInstance: {fileID: 8108911873009031689}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8108911873009031694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007587159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoInformacao: "Em 1822, Dom Pedro I proclamou a independ\xEAncia do Brasil,
+    rompendo com Portugal."
 --- !u!1001 &8108911873096210824
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9591,13 +9683,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8108911873096210829}
   m_SourcePrefab: {fileID: 100100000, guid: 695fcbf58b94f984196075bece40b020, type: 3}
 --- !u!4 &8108911873096210825 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2972562783387813231, guid: 695fcbf58b94f984196075bece40b020, type: 3}
   m_PrefabInstance: {fileID: 8108911873096210824}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8108911873096210829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497562152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoInformacao: "Os bandeirantes exploraram o interior do Brasil, expandindo o
+    territ\xF3rio e buscando riquezas, muitas vezes capturando ind\xEDgenas."
 --- !u!1001 &8108911873462214329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9813,13 +9922,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8108911873741149440}
   m_SourcePrefab: {fileID: 100100000, guid: 695fcbf58b94f984196075bece40b020, type: 3}
 --- !u!4 &8108911873741149436 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2972562783387813231, guid: 695fcbf58b94f984196075bece40b020, type: 3}
   m_PrefabInstance: {fileID: 8108911873741149435}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8108911873741149440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431231887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoInformacao: "As caravelas portuguesas foram essenciais para a explora\xE7\xE3o,
+    com\xE9rcio e coloniza\xE7\xE3o do territ\xF3rio brasileiro."
 --- !u!1001 &8108911873849183148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9961,13 +10087,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8108911873984694460}
   m_SourcePrefab: {fileID: 100100000, guid: 695fcbf58b94f984196075bece40b020, type: 3}
 --- !u!4 &8108911873984694456 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2972562783387813231, guid: 695fcbf58b94f984196075bece40b020, type: 3}
   m_PrefabInstance: {fileID: 8108911873984694455}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8108911873984694460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806050537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoInformacao: "A chegada da corte portuguesa em 1808 transformou o Brasil, trazendo
+    avan\xE7os administrativos, culturais e econ\xF4micos."
 --- !u!1001 &8108911874013365698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10035,13 +10178,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8108911874013365703}
   m_SourcePrefab: {fileID: 100100000, guid: 695fcbf58b94f984196075bece40b020, type: 3}
 --- !u!4 &8108911874013365699 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2972562783387813231, guid: 695fcbf58b94f984196075bece40b020, type: 3}
   m_PrefabInstance: {fileID: 8108911874013365698}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8108911874013365703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368202634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoInformacao: "O caf\xE9 tornou-se o principal produto da economia brasileira
+    no s\xE9culo XIX, impulsionando o crescimento do pa\xEDs."
 --- !u!1001 &8108911874058997080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10183,13 +10343,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3824195931750876453, guid: 695fcbf58b94f984196075bece40b020, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8108911874168152042}
   m_SourcePrefab: {fileID: 100100000, guid: 695fcbf58b94f984196075bece40b020, type: 3}
 --- !u!4 &8108911874168152038 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2972562783387813231, guid: 695fcbf58b94f984196075bece40b020, type: 3}
   m_PrefabInstance: {fileID: 8108911874168152037}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8108911874168152042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448538532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoInformacao: "Os povos ind\xEDgenas foram os primeiros habitantes do Brasil,
+    com culturas, l\xEDnguas e tradi\xE7\xF5es diversas, vivendo em harmonia com
+    a natureza."
 --- !u!1001 &8473879316935238206
 PrefabInstance:
   m_ObjectHideFlags: 0
