@@ -2,11 +2,10 @@ using UnityEngine;
 
 public class InteractableObject : MonoBehaviour
 {
-    [TextArea]
+    public string titulo;
+
+    [TextArea(5, 10)]
     public string textoInformacao;
 
-    public void Interagir()
-    {
-        Debug.Log(textoInformacao);
-    }
+    public AudioClip narracao;
 }

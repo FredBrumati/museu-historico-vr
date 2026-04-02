@@ -8,6 +8,8 @@ public class DesktopFirstPersonController : MonoBehaviour
     public float mouseSensitivity = 2f;
     public float gravity = -9.81f;
     public Transform cameraTransform;
+    public bool podeMover = true;
+    public MuseumUIController uiController;
 
     [Header("Interação")]
     public float distanciaInteracao = 3f;
@@ -33,9 +35,12 @@ public class DesktopFirstPersonController : MonoBehaviour
 
     void Update()
     {
-        Look();
-        Move();
-        HandleInteraction();
+       if (podeMover)
+        {
+            Look();
+            Move();
+            HandleInteraction();
+        }
     }
 
     void Look()
@@ -78,36 +83,32 @@ public class DesktopFirstPersonController : MonoBehaviour
     }
 
     void HandleInteraction()
+{
+    if (cameraTransform == null)
+        return;
+
+    Ray ray = new Ray(cameraTransform.position, cameraTransform.forward);
+    RaycastHit hit;
+
+    if (Physics.Raycast(ray, out hit, distanciaInteracao, camadaInteracao))
     {
-        if (cameraTransform == null)
-            return;
+        if (textoPressioneE != null)
+            textoPressioneE.SetActive(true);
 
-        Ray ray = new Ray(cameraTransform.position, cameraTransform.forward);
-        RaycastHit hit;
-
-        if (Physics.Raycast(ray, out hit, distanciaInteracao, camadaInteracao))
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            if (textoPressioneE != null)
-            {
-                textoPressioneE.SetActive(true);
-            }
+            InteractableObject obj = hit.collider.GetComponent<InteractableObject>();
 
-            if (Input.GetKeyDown(KeyCode.E))
+            if (obj != null && uiController != null)
             {
-                InteractableObject obj = hit.collider.GetComponent<InteractableObject>();
-
-                if (obj != null)
-                {
-                    obj.Interagir();
-                }
-            }
-        }
-        else
-        {
-            if (textoPressioneE != null)
-            {
-                textoPressioneE.SetActive(false);
+                uiController.AbrirPainel(obj.titulo, obj.textoInformacao, obj.narracao);
             }
         }
     }
+    else
+    {
+        if (textoPressioneE != null)
+            textoPressioneE.SetActive(false);
+    }
+}
 }
