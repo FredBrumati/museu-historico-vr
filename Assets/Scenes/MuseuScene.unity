@@ -611,7 +611,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -692,10 +692,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1817501122}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -20}
+  m_SizeDelta: {x: -70, y: -140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &110498997
 GameObject:
@@ -971,10 +971,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1817501122}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -45}
+  m_SizeDelta: {x: -60, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &165042938
 CanvasRenderer:
@@ -1014,7 +1014,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1031,8 +1031,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 34
+  m_fontSizeBase: 34
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6331,10 +6331,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1817501122}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 15}
+  m_SizeDelta: {x: 250, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1546088694
 MonoBehaviour:
@@ -6366,7 +6366,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6383,8 +6383,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7128,7 +7128,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 700, y: 450}
+  m_SizeDelta: {x: 700, y: 370}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1817501123
 MonoBehaviour:
@@ -9819,9 +9819,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: 
-  textoInformacao: "O Brasil atual \xE9 um pa\xEDs diverso culturalmente, com avan\xE7os
-    tecnol\xF3gicos e desafios sociais importantes."
+  titulo: "Brasil Contempor\xE2neo"
+  textoInformacao: "O Brasil atual \xE9 um pa\xEDs diverso culturalmente, com grandes
+    centros urbanos como S\xE3o Paulo, que representam avan\xE7os tecnol\xF3gicos
+    e desenvolvimento. Ao mesmo tempo, o pa\xEDs ainda enfrenta importantes desafios
+    sociais."
   narracao: {fileID: 0}
 --- !u!1001 &8108911872057248518
 PrefabInstance:
@@ -9912,9 +9914,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: 
-  textoInformacao: "Representa\xE7\xE3o da primeira missa realizada em 1500, marcando
-    o in\xEDcio da presen\xE7a portuguesa no Brasil e o come\xE7o da coloniza\xE7\xE3o."
+  titulo: Primeira Missa no Brasil
+  textoInformacao: "A primeira missa no Brasil foi realizada em 1500, pouco ap\xF3s
+    a chegada dos portugueses liderados por Pedro \xC1lvares Cabral. Esse evento
+    simboliza o in\xEDcio da coloniza\xE7\xE3o e da influ\xEAncia religiosa europeia
+    no territ\xF3rio, marcando uma transforma\xE7\xE3o profunda na cultura e na organiza\xE7\xE3o
+    social dos povos ind\xEDgenas."
   narracao: {fileID: 0}
 --- !u!1001 &8108911872221689749
 PrefabInstance:
@@ -10005,9 +10010,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: 
-  textoInformacao: "Inaugurada em 1960, Bras\xEDlia foi planejada para ser a nova
-    capital do Brasil, s\xEDmbolo de modernidade."
+  titulo: "Constru\xE7\xE3o de Bras\xEDlia"
+  textoInformacao: "Inaugurada em 1960, Bras\xEDlia foi constru\xEDda para ser a
+    nova capital do Brasil. A cidade simboliza modernidade e foi planejada para desenvolver
+    o interior do pa\xEDs."
   narracao: {fileID: 0}
 --- !u!1001 &8108911872365948381
 PrefabInstance:
@@ -10103,9 +10109,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: 
-  textoInformacao: "Primeiro imperador do Brasil, liderou o processo de independ\xEAncia
-    e marcou o in\xEDcio do per\xEDodo imperial."
+  titulo: Dom Pedro I
+  textoInformacao: "Dom Pedro I foi o primeiro imperador do Brasil e figura central
+    na independ\xEAncia do pa\xEDs. Seu governo marcou o in\xEDcio da organiza\xE7\xE3o
+    pol\xEDtica do Brasil como na\xE7\xE3o independente."
   narracao: {fileID: 0}
 --- !u!1001 &8108911872569781271
 PrefabInstance:
@@ -10196,9 +10203,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: 
-  textoInformacao: "Os engenhos foram a base da economia colonial, utilizando m\xE3o
-    de obra escravizada para a produ\xE7\xE3o de a\xE7\xFAcar destinado \xE0 exporta\xE7\xE3o."
+  titulo: "Engenho de A\xE7\xFAcar"
+  textoInformacao: "Os engenhos de a\xE7\xFAcar foram a base da economia colonial
+    brasileira, especialmente entre os s\xE9culos XVI e XVII. Utilizavam m\xE3o de
+    obra escravizada africana e produziam a\xE7\xFAcar para exporta\xE7\xE3o, gerando
+    grande riqueza para Portugal."
   narracao: {fileID: 0}
 --- !u!1001 &8108911873009031689
 PrefabInstance:
@@ -10289,9 +10298,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: 
-  textoInformacao: "Em 1822, Dom Pedro I proclamou a independ\xEAncia do Brasil,
-    rompendo com Portugal."
+  titulo: "Independ\xEAncia ou Morte"
+  textoInformacao: "Em 7 de setembro de 1822, Dom Pedro I proclamou a independ\xEAncia
+    do Brasil \xE0s margens do Rio Ipiranga. Esse ato marcou o fim do dom\xEDnio
+    portugu\xEAs e o in\xEDcio do per\xEDodo imperial."
   narracao: {fileID: 0}
 --- !u!1001 &8108911873096210824
 PrefabInstance:
@@ -10382,9 +10392,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: 
-  textoInformacao: "Os bandeirantes exploraram o interior do Brasil, expandindo o
-    territ\xF3rio e buscando riquezas, muitas vezes capturando ind\xEDgenas."
+  titulo: Bandeirantes
+  textoInformacao: "Os bandeirantes exploraram o interior do Brasil em busca de riquezas,
+    como ouro e pedras preciosas. Tamb\xE9m capturavam ind\xEDgenas para escraviza\xE7\xE3o,
+    contribuindo para a expans\xE3o territorial do pa\xEDs."
   narracao: {fileID: 0}
 --- !u!1001 &8108911873462214329
 PrefabInstance:
@@ -10475,9 +10486,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: 
-  textoInformacao: "Per\xEDodo entre 1964 e 1985 marcado por governo autorit\xE1rio,
-    censura e restri\xE7\xE3o das liberdades pol\xEDticas."
+  titulo: Ditadura Militar
+  textoInformacao: "Entre 1964 e 1985, o Brasil viveu um regime militar marcado pela
+    aus\xEAncia de democracia, censura e repress\xE3o pol\xEDtica. Esse per\xEDodo
+    deixou marcas importantes na hist\xF3ria do pa\xEDs."
   narracao: {fileID: 0}
 --- !u!1001 &8108911873670667588
 PrefabInstance:
@@ -10568,9 +10580,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: 
-  textoInformacao: "Get\xFAlio Vargas governou o Brasil por anos e criou importantes
-    leis trabalhistas que influenciam o pa\xEDs at\xE9 hoje."
+  titulo: "Get\xFAlio Vargas"
+  textoInformacao: "Get\xFAlio Vargas governou o Brasil por v\xE1rios anos e promoveu
+    importantes mudan\xE7as, como a cria\xE7\xE3o de leis trabalhistas. Seu governo
+    teve grande impacto na pol\xEDtica brasileira."
   narracao: {fileID: 0}
 --- !u!1001 &8108911873741149435
 PrefabInstance:
@@ -10661,9 +10674,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: 
-  textoInformacao: "As caravelas portuguesas foram essenciais para a explora\xE7\xE3o,
-    com\xE9rcio e coloniza\xE7\xE3o do territ\xF3rio brasileiro."
+  titulo: Navios Portugueses
+  textoInformacao: "As embarca\xE7\xF5es portuguesas, como as caravelas, foram fundamentais
+    para a explora\xE7\xE3o e coloniza\xE7\xE3o do Brasil. Elas permitiram o transporte
+    de pessoas, mercadorias e riquezas entre a Europa e a Am\xE9rica."
   narracao: {fileID: 0}
 --- !u!1001 &8108911873849183148
 PrefabInstance:
@@ -10754,9 +10768,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: 
-  textoInformacao: "Em 1888, a Princesa Isabel assinou a Lei \xC1urea, encerrando
-    oficialmente a escravid\xE3o no Brasil."
+  titulo: "Aboli\xE7\xE3o da Escravid\xE3o"
+  textoInformacao: "Em 1888, a Princesa Isabel assinou a Lei \xC1urea, que aboliu
+    oficialmente a escravid\xE3o no Brasil. O pa\xEDs foi o \xFAltimo das Am\xE9ricas
+    a acabar com esse sistema."
   narracao: {fileID: 0}
 --- !u!1001 &8108911873984694455
 PrefabInstance:
@@ -10847,9 +10862,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: 
-  textoInformacao: "A chegada da corte portuguesa em 1808 transformou o Brasil, trazendo
-    avan\xE7os administrativos, culturais e econ\xF4micos."
+  titulo: "Dom Jo\xE3o VI no Brasil"
+  textoInformacao: "Em 1808, Dom Jo\xE3o VI transferiu a corte portuguesa para o
+    Brasil, fugindo das invas\xF5es napole\xF4nicas. Esse evento trouxe importantes
+    mudan\xE7as pol\xEDticas, econ\xF4micas e culturais para o pa\xEDs."
   narracao: {fileID: 0}
 --- !u!1001 &8108911874013365698
 PrefabInstance:
@@ -10940,9 +10956,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: 
-  textoInformacao: "O caf\xE9 tornou-se o principal produto da economia brasileira
-    no s\xE9culo XIX, impulsionando o crescimento do pa\xEDs."
+  titulo: "Ciclo do Caf\xE9"
+  textoInformacao: "No s\xE9culo XIX, o caf\xE9 tornou-se o principal produto da
+    economia brasileira. Sua produ\xE7\xE3o impulsionou o crescimento econ\xF4mico
+    e influenciou a pol\xEDtica e a sociedade da \xE9poca."
   narracao: {fileID: 0}
 --- !u!1001 &8108911874058997080
 PrefabInstance:
@@ -11033,9 +11050,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: 
-  textoInformacao: "Em 1889, Marechal Deodoro da Fonseca proclamou a Rep\xFAblica,
-    encerrando o per\xEDodo imperial."
+  titulo: "Proclama\xE7\xE3o da Rep\xFAblica"
+  textoInformacao: "Em 1889, um movimento liderado por militares colocou fim \xE0
+    monarquia no Brasil. A Rep\xFAblica foi instaurada, iniciando uma nova fase pol\xEDtica
+    no pa\xEDs."
   narracao: {fileID: 0}
 --- !u!1001 &8108911874168152037
 PrefabInstance:
@@ -11126,10 +11144,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c057add6a14154895f527bdae77ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: 
-  textoInformacao: "Os povos ind\xEDgenas foram os primeiros habitantes do Brasil,
-    com culturas, l\xEDnguas e tradi\xE7\xF5es diversas, vivendo em harmonia com
-    a natureza."
+  titulo: "Povos Ind\xEDgenas do Brasil"
+  textoInformacao: "Antes da chegada dos europeus, o Brasil era habitado por diversos
+    povos ind\xEDgenas, com culturas, l\xEDnguas e tradi\xE7\xF5es pr\xF3prias. Viviam
+    da ca\xE7a, pesca e agricultura, mantendo uma forte rela\xE7\xE3o com a natureza
+    e o ambiente ao seu redor."
   narracao: {fileID: 0}
 --- !u!1001 &8473879316935238206
 PrefabInstance:
